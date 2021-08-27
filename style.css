@@ -1,0 +1,789 @@
+@import url("https://fonts.googleapis.com/css2?family=Allison&family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allison&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Klee+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Klee+One&family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap");
+
+/******************************header***************************************/
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+nav {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background: black;
+  font-family: "Montserrat", sans-serif;
+  margin-top: -15px;
+  padding: 0%;
+}
+
+.logo {
+  font-size: 40px;
+  font-family: "Allison", sans-serif;
+  color: whitesmoke;
+  letter-spacing: 6px;
+  margin-left: 100px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.s {
+  color: red;
+}
+
+.c {
+  color: yellow;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  width: 50%;
+  justify-content: space-between;
+  margin-right: 90px;
+  margin-top: 25px;
+}
+
+.list li a {
+  text-decoration: none;
+  color: ghostwhite;
+  font-weight: 700;
+}
+
+.list li a:hover {
+  color: yellow;
+}
+
+li a:active {
+  text-decoration: underline yellow;
+}
+
+@media (max-width: 800px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 60px;
+    margin-left: -15px;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 170px;
+  }
+
+  #a img {
+    width: 500px;
+    height: 600px;
+  }
+
+  #a .accueil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #a p {
+    font-size: 20px;
+    margin-right: 450px;
+    text-align: center;
+    width: 400px;
+  }
+
+  #a .bouton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #a .btn {
+    margin-right: 500px;
+  }
+
+  #a .btn1 {
+    margin-right: 60px;
+  }
+}
+
+#a h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: -400px;
+  font-size: 70px;
+  color: white;
+}
+
+#a p {
+  margin-top: 20px;
+  margin-left: 420px;
+  color: white;
+  font-size: 15px;
+}
+
+#a .bouton {
+  display: flex;
+}
+
+#a .btn {
+  margin-top: 60px;
+  margin-left: 470px;
+  width: 180px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid #ffbc00;
+  background: #ffbc00;
+  color: white;
+}
+
+#a .btn:hover {
+  border: 1.5px solid white;
+  background: transparent;
+  color: white;
+}
+
+#a .btn1 {
+  margin-top: 60px;
+  margin-left: 45px;
+  width: 180px;
+  height: 50px;
+  border-radius: 25px;
+  border: 2px solid #ffbc00;
+  background: #ffbc00;
+  color: white;
+}
+
+#a .btn1:hover {
+  border: 1.5px solid white;
+  background: transparent;
+  color: white;
+}
+
+.a2 {
+  height: 250px;
+  margin-top: 250px;
+  background-color: #eeebebaf;
+}
+
+.a2 .container {
+  height: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.a2 .text p {
+  text-align: center;
+  margin-top: 60px;
+  line-height: 2px;
+  font-size: 20px;
+  font-family: "Segoe UI";
+  word-spacing: 4px;
+}
+
+.a2 .titre h2 {
+  font-size: 40px;
+  color: #666767;
+  text-align: center;
+  margin-top: 70px;
+  word-spacing: 2px;
+}
+
+@media (max-width: 800px) {
+  .a2 .container {
+    width: 500px;
+    height: 300px;
+    margin-top: -200px;
+  }
+
+  .a2 .container .titre h2 {
+    font-size: 20px;
+    margin-top: -50px;
+  }
+
+  .a2 .container .text p {
+    font-size: 12px;
+    margin-right: 20px;
+  }
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 60px;
+  font-family: "Klee One", cursive;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.title span {
+  color: yellow;
+}
+
+.espace {
+  background: black;
+  margin-top: 70px;
+}
+
+/*******************************cardio et fitness*****************************/
+.cardio:hover {
+  background: #785205;
+}
+
+.espace .cardio {
+  margin: 2%;
+  display: flex;
+}
+
+.espace .cardio img {
+  margin: 2%;
+  border-radius: 15px;
+}
+
+.espace .cardio .text1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.espace .cardio h2 {
+  color: yellow;
+  display: inline;
+  font-size: 40px;
+  margin-top: -100px;
+}
+
+.espace .cardio p {
+  color: white;
+  margin-top: 80px;
+  text-align: center;
+  line-height: 30px;
+  word-spacing: 5px;
+}
+
+/**************************************musculation********************************/
+
+.espace .musculation {
+  margin: 2%;
+  margin-top: 50px;
+  display: flex;
+}
+
+.espace .musculation img {
+  margin-left: -200px;
+  border-radius: 15px;
+}
+
+.espace .musculation .text2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.espace .musculation h2 {
+  color: yellow;
+  display: inline;
+  font-size: 40px;
+  margin-top: -150px;
+  margin-right: 500px;
+}
+
+.espace .musculation p {
+  color: white;
+  margin-top: 100px;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 500px;
+  width: 500px;
+}
+
+.musculation:hover {
+  background: #785205;
+}
+
+@media (max-width: 800px) {
+  .espace {
+    width: 500px;
+  }
+
+  .espace .cardio {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .espace .musculation {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .espace .cardio img {
+    width: 450px;
+    height: 400px;
+    margin-right: -70px;
+  }
+
+  .espace .cardio h2 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .espace .cardio p {
+    font-size: 15px;
+  }
+
+  .espace .musculation img {
+    margin-left: 10px;
+  }
+  .espace .musculation .text2 {
+    margin-top: 200px;
+  }
+  .espace .musculation h2 {
+    font-size: 20px;
+    margin-left: 500px;
+    display: inline;
+  }
+  .espace .musculation p {
+    font-size: 15px;
+    margin-left: 500px;
+  }
+}
+
+/****************************activités********************************/
+
+.activité {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 70px;
+  background: #f1f0f0af;
+  height: 550px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  height: 400px;
+  margin-top: -40px;
+  padding: 2%;
+  background-color: #b3b3b3;
+}
+
+.card-title {
+  color: yellow;
+  margin-top: 20px;
+  font-family: "Hina Mincho", serif;
+  font-size: 25px;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.card-text {
+  font-family: "Hina Mincho", serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.card-img-top {
+  border-radius: 50%;
+  width: 50%;
+  object-fit: fill;
+}
+
+.btn2 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -60px;
+  border: none;
+  background: #ffbc00;
+  margin-left: 580px;
+  width: 150px;
+  height: 50px;
+  border: 1px solid white;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.btn2 button:hover {
+  letter-spacing: 2px;
+}
+
+@media (max-width: 800px) {
+  .activité {
+    display: flex;
+    flex-direction: column;
+    height: 1800px;
+  }
+
+  .card {
+    margin-top: 40px;
+  }
+
+  .btn2 button {
+    margin-left: 180px;
+    width: 120px;
+  }
+}
+
+/***********************************tarif***************************/
+
+.tarif {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 90px;
+  padding: 1%;
+  background: #eeebebaf;
+  height: 600px;
+}
+
+.abonnement {
+  width: 500px;
+  height: 500px;
+  background: #ffbc00;
+  border-radius: 15px;
+  margin-top: 25px;
+}
+
+.abonnement:hover {
+  margin-top: -15px;
+}
+
+.abonnement .contenu {
+  padding: 8%;
+  font-family: "Klee One", cursive;
+}
+
+.abonnement .contenu h1 {
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  letter-spacing: 2px;
+}
+
+.abonnement .contenu h3 {
+  text-align: center;
+  margin-top: 68px;
+  color: white;
+}
+
+.abonnement .contenu span {
+  text-align: center;
+  color: white;
+}
+
+.abonnement .contenu h4 {
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+}
+
+.abonnement .contenu p {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.abonnement .contenu h5 {
+  text-align: center;
+  color: white;
+}
+
+/***********************abonnement1******************************/
+.abonnement1 {
+  width: 500px;
+  height: 500px;
+  background: black;
+  border-radius: 15px;
+  margin-top: 25px;
+}
+
+.abonnement1:hover {
+  margin-top: -15px;
+}
+
+.abonnement1 .contenu {
+  padding: 8%;
+  font-family: "Klee One", cursive;
+}
+
+.abonnement1 .contenu h1 {
+  text-align: center;
+  font-size: 25px;
+  color: yellow;
+  letter-spacing: 2px;
+}
+
+.abonnement1 .contenu h3 {
+  text-align: center;
+  margin-top: 60px;
+  color: white;
+}
+
+.abonnement1 .contenu span {
+  text-align: center;
+  color: white;
+}
+
+.abonnement1 .contenu h4 {
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+}
+
+.abonnement1 .contenu p {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.abonnement1 .contenu h5 {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+@media (max-width: 800px) {
+  .tarif {
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+  }
+
+  .abonnement {
+    width: 400px;
+    margin-left: 40px;
+  }
+
+  .abonnement1 {
+    width: 400px;
+    margin-left: 40px;
+  }
+}
+
+/********************************planning***************************/
+
+.planning {
+  margin-top: 250px;
+  background: #eeebebaf;
+  height: 190px;
+  margin-top: 90px;
+}
+
+.planning .contenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.planning .contenu .btn3 button {
+  margin-top: 50px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  border: none;
+  background: #666767;
+  margin-left: 30px;
+  width: 150px;
+  height: 50px;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.planning .contenu .btn3 button:hover {
+  letter-spacing: 2px;
+}
+
+.planning .contenu h2 {
+  margin-top: 20px;
+  font-family: "Hina Mincho", serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 800px) {
+  .planning {
+    width: 500px;
+  }
+  .planning .contenu h2 {
+    font-size: 25px;
+  }
+
+  .planning .contenu .btn3 button {
+    width: 120px;
+  }
+}
+
+/*********************************contact************************/
+
+.contact {
+  margin-top: 100px;
+}
+
+.contact .contactform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  padding: 4%;
+  margin-right: 200px;
+  margin-left: 200px;
+  background: black;
+}
+
+.contact input {
+  width: 600px;
+}
+
+.contact label {
+  color: yellow;
+}
+
+@media (max-width: 800px) {
+  .contact input,
+  button {
+    width: 250px;
+    margin-left: 20px;
+  }
+  .contact .contactform {
+    width: 500px;
+    margin-left: 5px;
+  }
+
+  .contact label {
+    margin-left: 20px;
+  }
+}
+
+/*************************footer*********************/
+
+footer {
+  background-color: #b3b3b3;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.contact ul,
+.horaire ul {
+  list-style-type: none;
+}
+
+.horaire .fa {
+  color: green;
+}
+
+.horaire #cross {
+  color: red;
+}
+
+footer .contact {
+  margin-top: 10px;
+}
+
+footer .contact i {
+  width: 30px;
+}
+
+footer .contact .réseausociaux {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+footer .contact .réseausociaux a {
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+footer .contact .réseausociaux .fa {
+  width: 50px;
+  height: 50px;
+}
+
+footer .horaire {
+  margin-top: 10px;
+}
+
+footer .horaire1 {
+  display: flex;
+}
+
+footer .langue {
+  margin-top: 20px;
+}
+
+footer .langue select {
+  width: 200px;
+  height: 50px;
+}
+
+footer .contact .title3 {
+  margin-left: 28px;
+  color: black;
+}
+
+footer .horaire h2 {
+  color: black;
+  margin-left: 30px;
+}
+
+@media (max-width: 800px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+  }
+
+  footer .contact {
+    margin-left: 30px;
+  }
+}
+
+/**********************copyright***********************/
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  background-color: #666767;
+  color: white;
+}
+
+.copyright p {
+  margin-top: 5px;
+  margin: 2%;
+}

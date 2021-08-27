@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Allison&family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allison&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap");
+
+/*header*/
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+nav {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+  font-size: 40px;
+  font-family: "Allison", sans-serif;
+  color: whitesmoke;
+  letter-spacing: 6px;
+}
+
+.s {
+  color: red;
+}
+
+.c {
+  color: yellow;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.list li a {
+  text-decoration: none;
+  color: ghostwhite;
+  font-weight: 700;
+}
+
+.list li a:hover {
+  color: yellow;
+}
+
+li a:active {
+  text-decoration: underline yellow;
+}
+
+@media (max-width: 800px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 60px;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+  }
+}
+
+body {
+  background-color: black;
+}
+
+.tableau table {
+  margin-top: 100px;
+  margin-left: 200px;
+  border-collapse: collapse;
+  width: 1000px;
+  height: 500px;
+}
+
+table th {
+  color: black;
+}
+
+table td {
+  text-align: center;
+  color: white;
+}
+
+table tr th {
+  background-color: rgb(235, 226, 226);
+}
+
+table tr .yoga {
+  background-color: plum;
+}
+
+table tr .muscle {
+  background-color: salmon;
+}
+
+table tr .cross {
+  background-color: green;
+}
+
+table tr .dance {
+  background-color: rgb(71, 71, 129);
+}
+
+table tr .box {
+  background-color: rgb(204, 150, 95);
+}
+
+table tr .cardio {
+  background-color: black;
+}
+
+table tr .dance1 {
+  background-color: powderblue;
+}
+
+table tr .zumba {
+  background-color: rgb(238, 41, 74);
+}
+
+table tr .body {
+  background-color: rgb(41, 126, 238);
+}
+
+table tr .attack {
+  background-color: palevioletred;
+}
+
+table tr .pump {
+  background-color: lawngreen;
+}
+
+@media (max-width: 800px) {
+  .tableau table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    margin-left: 20px;
+    width: 500px;
+    height: 100px;
+  }
+}
